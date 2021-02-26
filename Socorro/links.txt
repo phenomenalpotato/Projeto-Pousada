@@ -1,0 +1,9 @@
+Links para o site da cafeteria
+
+Texto de exibição			Nomes dos arquivos
+ - home						index.html
+ - cafés					cafes.html
+ - sucos					sucos.html
+ - paes e lanches			paeselanches.html	
+ - sobremesas				sobremesas.html
+ - contato					contato.html				
