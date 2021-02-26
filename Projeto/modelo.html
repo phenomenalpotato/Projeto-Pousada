@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Modelo do Site - Cafeteria</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/cafeteria.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+
+</head>
+<body>
+	<header>
+	<nav class="orange darken-4">
+
+		<!--permitir que o links troquem de posição indo para o 
+			icone hamburguer quando a página ficar muito pequena
+		-->
+	
+	<div class="nav-wrapper">
+		<a href="index.html" class="brand-logo">CB</a>
+		
+		<a href="#" data-activates="mobile-demo" class="button-collapse">Menu > 
+		</a>
+		
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="index.html">home</a></li>
+			<li><a href="cafes.html">cafés</a></li>
+			<li><a href="sucos.html">sucos</a></li>
+			<li><a href="paeselanches.html">paes e lanches</a></li>
+			<li><a href="sobremesas.html">sobremesas</a></li>
+			<li><a href="contato.html">contato</a></li>
+		</ul>
+
+
+		<ul class="side-nav" id="mobile-demo">
+			<li><a href="index.html">home</a></li>
+			<li><a href="cafes.html">cafés</a></li>
+			<li><a href="sucos.html">sucos</a></li>
+			<li><a href="paeselanches.html">paes e lanches</a></li>
+			<li><a href="sobremesas.html">sobremesas</a></li>
+			<li><a href="contato.html">contato</a></li>
+		</ul>
+
+
+		</div>
+
+	</nav>	
+	</header>
+	<main>
+		<section id="painel">
+			<div class="carousel carousel-slider center" data-indicators="true">
+
+				<div class="carousel-item white">
+					<img src="imagens/cafeteria2.png" alt="A cafeteria">
+				</div>
+
+
+				<div class="carousel-item white">
+					<img src="imagens/cafe2.jpg" alt="Café especial">
+				</div>
+
+
+				<div class="carousel-item white">
+					<img src="imagens/lanche13.jpg" alt="Lanche da casa">
+				</div>
+
+				<div class="carousel-item white">
+					<img src="imagens/pao4.jpg" alt="Pão filão">
+				</div>
+			</div>
+		</section>
+		
+		<section id="conteudo1">
+			<h2>Título da Página</h2>
+		</section>
+
+
+	</main>
+	<footer>
+		
+		<div id="endereco">
+			Av. Luiz Garcia de Almeida, 1548 - Jardim Selma - São Paulo - SP<br>
+			Telefone: 11 - 5568-9969 | 11 - 5569-8898<br>
+			<a href="mailto:contato@cafeteria.com.br?Subject=contato&cc=contato2@cafeteria.com.br&body=Obrigado por enviar sua mensagem">
+				contato@cafeteria.com.br
+			</a>
+
+		</div>
+
+
+		<div id="redes">
+			<ul>
+				<li><a href="http://www.facebook.com" target="_blank">
+					<i class="fa fa-facebook"></i> Facebook</a>
+				</li>
+				
+				<li><a href="http://www.twitter.com" target="_blank">
+					<i class="fa fa-twitter"></i> Twitter</a>
+				</li>
+
+				<li><a href="http://www.instagram.com" target="_blank">
+					<i class="fa fa-instagram"></i> Instagram</a>
+				</li>
+			</ul>
+			
+		</div>
+
+		<div id="mapa">
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.204549320429!2d-46.64890208559546!3d-23.596995968793056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a23885cbf77%3A0x5f6032d91175baa9!2sCafeteria+Vov%C3%B3+Lela!5e0!3m2!1spt-BR!2sbr!4v1511290452556" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		</div>
+
+
+
+
+
+
+	</footer>	
+
+
+
+<!--importação dos script de jquery e materialize-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+<!--Aplicação do comportamento de jquery para o menu de hamburguer 
+	aparecer e realiazar as manipulações-->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.button-collapse').sideNav();
+		$('.carousel.carousel-slider').carousel({fullWidth:false});
+	});
+
+</script>
+
+
+
+
+
+</body>
+</html>
