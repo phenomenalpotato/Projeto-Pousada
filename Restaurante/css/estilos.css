@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+
+	background-image: url("../imagens/restaurante4.jpg");
+	background-size: 100%;
+	background-position: 0px -300px;
+	height: 300px;
+
+
+}
+
+header nav{
+
+	background-color: rgba(0, 0, 0, .8);
+	padding: 10px 0px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+header nav li{
+
+	display: inline-block;
+	margin: 0px 10px;
+
+}
+
+header nav li a{
+
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	font-family: 'PT Sans Caption', sans-serif;
+
+}
+
+header nav li a:hover{
+
+	color: rgba(255, 255, 255, .8);
+}
+
+header h1{
+
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+	font-family: 'Amatic SC', cursive;
+	font-size: 40pt;
+	padding-top: 170px;
+	text-shadow: 5px  5px 10px #000;
+}
+
+main{
+
+	
+}
+
+footer{
+
+	padding:80px 0px; 
+	background-color: darkred;
+	color: white;
+	display: inline-block;
+	width: 100%;
+}
+
+footer #endereco{
+
+	float: left;
+	line-height: 30px;
+	width: 20%;
+	margin-left: 350px; 
+}
+
+footer #redes{
+
+	float: right;
+	width: 10%;
+	margin-right: 350px;
+}
+
+footer #redes ul{
+
+	list-style: none;
+
+}
+
+footer a{
+
+	text-decoration: none;
+	color: white;
+}
+
+/*estilo de linhas para conteudo*/
+
+.conteudo{
+
+	width: 80%; 
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 0px;
+	display: table;
+	background-color: white;
+	
+}
+
+.col2{
+
+	width: 40%;
+	background-color: white;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	        box-shadow: 3px 3px 10px #333;
+	float: left;
+	margin: 3%;
+
+}
+
+.img{
+
+	width: 100%;
+	height: auto;
+	opacity: .5;
+	-webkit-transition: .7s all ease;
+	-o-transition: .7s all ease;
+	transition: .7s all ease;
+}
+
+.img:hover{
+
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+h3{
+
+	font-family: 'Sanchez';
+	font-size: 20pt;
+	padding-left: 5%;
+	padding-bottom: 1%;
+}
+
+.texto1{
+
+	font-family: 'Amatic';
+	font-size: 10pt;
+	line-height: 25px;
+	padding: 1%;
+}
+
+.col2 a{
+
+	font-family: 'Josefin+Sans';
+	font-size: 10pt;
+	text-decoration:none;
+	text-align: right;
+	width: 60%; 
+	padding:5%;
+
+}
+
+.texto2{
+
+	font-family: 'Amatic';
+	font-size: 10pt;
+	line-height: 25px;
+	padding:1%;	
+	float: right;
+
+	
+}
+
+.esquerda{
+
+	width: 49%;
+	float:left;
+}
+
+
+.col3{
+
+	width: 25%;
+	background-color: white;
+	-webkit-box-shadow: 6px 6px 20px #333;
+	        box-shadow: 6px 6px 20px #333;
+	float: left;
+	margin: 3%;
+
+}
+
+		/*CSS Reservas*/
+
+form{
+	/*border:1px blue solid;*/
+	width: 60%; 
+	margin: 5% auto; /*Largura do formulario(lado externo do formulario)*/
+	padding: 2%; /*Margem interna do formulario: topo e base 5% e esquerda e direita auto*/
+	background: rgba(255 , 0, 0, .5); /*Colocar cor e opacidade*/
+
+}
+
+label, input[type=submit]  /*Formatando mais de um elemento*/ {
+
+	display: block; /*Deixar as labels uma embaixo da outra em blocos / Dispor em bloco, 
+	um embaixo do outro */
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 10pt;
+	
+}
+
+input[type=text], input[type=email], textarea, select{
+
+	width: 90%;
+	padding: 1.5%;
+	outline: none; /*Retira a linha de foco do controle de formulario*/
+	margin-bottom: 3%; /*Aplicando uma Margem na Parte de Baixo*/
+	border-radius: 10px; /* Arredondando a caixa*/ 
+	border: 0px;
+}
+
+textarea{
+
+	height: 200px;
+}
+
+select{
+
+	width: 15%;
+}
+
+input[type=submit]{
+
+	padding: 2%;
+	cursor:pointer;
+}
+

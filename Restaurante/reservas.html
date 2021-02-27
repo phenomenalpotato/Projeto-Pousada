@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+
+	<meta http-equiv="view-port" content="width:scale-width; initial-scale=1.0">
+
+	<title>Restaurante Seu Fulano</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bree+Serif|Catamaran|Josefin+Sans|PT+Sans+Caption|Sanchez" rel="stylesheet">
+
+</head>
+<body>
+
+
+<header>
+	
+		<nav>
+				<ul>
+					<li><a href="index.html"><i class="fa fa-home"></i> Home </a></li>
+					<li><a href="cardapio.html"><i class="fa fa-cutlery"></i> Cardápio </a></li>
+					<li><a href="cartadevinhos.html"><i class="fa fa-glass"></i> Bebidas </a></li>
+					<li><a href="reservas.html"><i class="fa fa-building"></i> Reservas </a></li>
+				</ul>
+			</nav>	
+
+
+	<h1>Restaurante Seu Fulano</h1>
+
+</header>
+
+
+<main>
+	
+		
+	<form action="cad.jsp" method="post">
+		
+
+	<label for="txtNome">Nome:</label>
+	<input type="text" name="txtNome" id="txtNome" required placeholder="Seu Nome:">
+
+	<label for="txtEmail">E-mail:</label>
+	<input type="email" name="txtEmail" id="txtEmail" required placeholder="exmplo@dominio.com.br">
+	
+	<label for="txtAssunto">Assunto:</label>
+	<select name="txtAssunto" id="txtAssunto">
+		
+		<option value="Selecione">Selecione</option>
+		<option value="Reserva">Reserva</option>
+		<option value="Reserva especial">Reserva Especial</option>
+		<option value="Dúvida">Dúvida</option>
+
+	</select>
+
+	<label for="txtMensagem">Mensagem:</label>
+	<textarea name="txtMensagem" id="txtMensagem" placeholder="Escreva a sua Necessidade!"></textarea>
+	<input type="submit" name="Enviar" >
+
+
+	</form>
+
+
+	
+</main>
+
+
+<footer>
+
+		<div id="endereco">
+			Av. Doutora Helana Maia de Alencar, 1645 - Jardim Novo <br>
+			São Paulo - SP <br>
+			Telefone: 11 - 5689-9915 | 4457-9968 <br>
+
+			<a href="mailto:contato@restaurante.com.br?Subject=Contato">contato@restaurante.com.br</a>
+
+
+		</div>
+
+
+		<div id="redes">
+
+		<nav>
+			<ul>
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.twitter.com/signup?lang=pt-br" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</nav>
+			
+
+		</div>	
+
+
+
+</footer>
+	
+</body>
+</html>
