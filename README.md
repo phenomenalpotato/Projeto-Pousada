@@ -1,11 +1,11 @@
 # Projetos Web feito durante o Curso Técnico em 2017 - 18
 
 <details>
-  <summary>:heart: PROJETO CAFETERIA  </summary>
+  <summary>:hugs: PROJETO CAFETERIA  </summary>
 
 <br />
 
-<a href=""> Cafeteria </a>
+<a href="https://github.com/phenomenalpotato/Projetos-Web/tree/master/Cafeteria"> Cafeteria </a>
 
 <img src="IMG/cafeteria1.png" alt="cafeteria1" width="70%">
 
@@ -19,9 +19,11 @@
 <br />
 
 <details>
-  <summary>:heart: PROJETO POUSADA  </summary>
+  <summary>:relaxed: PROJETO POUSADA  </summary>
 
-<a href=""> Pousada </a>
+<br />
+
+<a href="https://github.com/phenomenalpotato/Projetos-Web/tree/master/Pousada"> Pousada </a>
 
 <img src="IMG/pousada1.png" alt="pousada1" width="70%">
 
@@ -37,11 +39,11 @@
 <br />
 
 <details>
-  <summary>:heart: PROJETO RESTAURANTE  </summary>
+  <summary>:yum: PROJETO RESTAURANTE  </summary>
 
 <br />
 
-<a href=""> Restaurante </a>
+<a href="https://github.com/phenomenalpotato/Projetos-Web/tree/master/Restaurante"> Restaurante </a>
 
 <img src="IMG/restaurante1.png" alt="restaurante1" width="70%">
 
